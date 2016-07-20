@@ -1,0 +1,25 @@
+{
+  "name": "lodash-tricks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzdev/Lodash-tricks.git"
+  },
+  "keywords": [
+    "lodash"
+  ],
+  "author": "Xiaoyu Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xzdev/Lodash-tricks/issues"
+  },
+  "homepage": "https://github.com/xzdev/Lodash-tricks#readme",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
