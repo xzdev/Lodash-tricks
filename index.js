@@ -62,6 +62,8 @@ _.map(ownerArr, 'pets[0].name').map(console.log);
 _.map(ownerArr, 'pets[2].name').map(console.log);
 console.log('_.get: ', _.get(ownerArr[0], 'pets[0].name'));
 console.log('_.get: ', _.get(ownerArr[2], 'pets[0].name', 'no dogs found'));
+_.set(ownerArr[0], 'pets[0].name', 'dogx'); // now ownerArr[0].pets is [{"name":"dogx"}, {"name": "dog2"}] 
+_.set(ownerArr[2], 'pets[0].name', 'dogy'); // no exceptions, ownerArr keeps its original value
 
 //==================================================================================
 // _.random
